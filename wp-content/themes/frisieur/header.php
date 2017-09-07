@@ -243,9 +243,12 @@ $martanian_options = get_option('martanian_theme_options');
 
             <a href="<?php echo home_url(); ?>">
 
-                <h1>
-                    Contemporary Hair Designs
-                </h1>
+                <?php
+
+                $logo_url = isset( $martanian_options['logo_url'] ) && $martanian_options['logo_url'] != '' ? $martanian_options['logo_url'] : home_url() .'/wp-content/themes/frisieur/_assets/_img/logo.png';
+                echo '<img src="'. $logo_url .'" alt="'. get_bloginfo( 'title' ) .'" />';
+
+                ?>
 
             </a>
 
@@ -309,9 +312,12 @@ $martanian_options = get_option('martanian_theme_options');
     <div class="logo">
 
         <a href="<?php echo home_url(); ?>">
-            <h1>
-                Contemporary Hair Designs
-            </h1>
+            <?php
+
+            $logo_responsive_url = isset( $martanian_options['logo_responsive_url'] ) && $martanian_options['logo_responsive_url'] != '' ? $martanian_options['logo_responsive_url'] : home_url() .'/wp-content/themes/frisieur/_assets/_img/logo-responsive.png';
+            echo '<img src="'. $logo_responsive_url .'" alt="'. get_bloginfo( 'title' ) .'" />';
+
+            ?>
 
         </a>
 

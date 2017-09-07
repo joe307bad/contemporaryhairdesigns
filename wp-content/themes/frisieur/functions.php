@@ -62,7 +62,7 @@ function martanian_script_enqueuer()
     wp_enqueue_style('jquery-ui-css');
 
     # font awesome
-    wp_register_style('font-awesome-css', get_stylesheet_directory_uri() . '/_assets/_libs/font-awesome/css/font-aweswefewfome.min.css');
+    wp_register_style('font-awesome-css', get_stylesheet_directory_uri() . '/_assets/_libs/font-awesome/css/font-awesome.min.css');
     wp_enqueue_style('font-awesome-css');
 
     # isotope
