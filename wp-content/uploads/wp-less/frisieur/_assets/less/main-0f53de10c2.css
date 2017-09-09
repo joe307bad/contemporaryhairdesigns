@@ -1,0 +1,17 @@
+@import "/wp-content/themes/frisieur/_assets/fonts/pacifico.css";
+h1 {
+  font-family: "pacificoregular", sans-serif;
+}
+#slogan p {
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.logo {
+  padding: 10px;
+}
+#scrollable-menu-logo .logo {
+  padding: 10px;
+  margin-top: -8px;
+  margin-left: 10px;
+}

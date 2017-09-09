@@ -1,0 +1,81 @@
+@import "/wp-content/themes/frisieur/_assets/fonts/pacifico.css";
+h1 {
+  font-family: "pacificoregular", sans-serif;
+}
+#slogan p {
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.logo {
+  padding: 10px;
+}
+header .top-header-box .logo {
+  padding: 10px;
+  margin-left: -116px;
+}
+@media (max-width: 1149px) and (min-width: 850px) {
+  header .top-header-box .logo {
+    margin-left: -99px;
+  }
+}
+@media (max-width: 849px) and (min-width: 600px) {
+  header .top-header-box .logo {
+    margin-left: -0px;
+  }
+}
+@media (max-width: 849px) and (min-width: 600px) {
+  header .top-header-box {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    left: 0;
+    background: #a97a48;
+    height: 90px;
+  }
+}
+#scrollable-menu-wrapper {
+  height: 103px;
+}
+#scrollable-menu-wrapper .logo {
+  padding: 10px;
+  margin-top: -25px;
+  margin-left: 10px;
+}
+header .top-header-box .responsive-menu {
+  right: 20px;
+  top: 34px;
+}
+.menu-item a {
+  font-size: 15px !important;
+  font-weight: 700;
+  color: white !important;
+}
+@media (max-width: 849px) and (min-width: 600px) {
+  header .top-header-box ul.menu-left ul.menu-right,
+  header .top-header-box ul.menu-right,
+  header .top-header-box ul.menu-left ul.menu-left,
+  header .top-header-box ul.menu-left {
+    display: none;
+    position: absolute;
+    top: 63px;
+    right: 0;
+    float: left;
+    width: 200px;
+    list-style: none;
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  header .top-header-box ul.menu-left ul.menu-right li,
+  header .top-header-box ul.menu-right li,
+  header .top-header-box ul.menu-left ul.menu-left li,
+  header .top-header-box ul.menu-left li {
+    padding: 10px;
+  }
+  header .top-header-box ul.menu-left ul.menu-right,
+  header .top-header-box ul.menu-right {
+    top: 220px !important;
+  }
+}
