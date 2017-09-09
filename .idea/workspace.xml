@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e7094b-0c26-4ca3-a3a7-cd91db8eac1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/_js/functions.js" afterPath="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/_js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/less/main.less" afterPath="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/less/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/frisieur/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/frisieur/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/frisieur/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/frisieur/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/frisieur/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="886">
@@ -106,12 +102,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
-                <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+                <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -158,11 +154,11 @@
       <find>maps.google.</find>
       <find>maps.google.co</find>
       <find>maps.google.come</find>
-      <find>maps</find>
       <find>maps.google.com</find>
       <find>map-canvas</find>
       <find>martanian_maps_pos1</find>
       <find>martanian_get_map_position</find>
+      <find>maps</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,10 +170,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/less/mainl.less" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/frisieur/header.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/_js/functions.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/frisieur/_assets/less/main.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/frisieur/functions.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -441,12 +437,12 @@
       <workItem from="1504568491089" duration="928000" />
       <workItem from="1504662351033" duration="3002000" />
       <workItem from="1504742416248" duration="4620000" />
-      <workItem from="1504828441665" duration="4179000" />
+      <workItem from="1504828441665" duration="4716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12729000" />
+    <option name="totallyTimeSpent" value="13266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2902" height="1822" extended-state="6" />
@@ -686,17 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/themeforest-6804791-frisieur-wordpress-theme-for-hair-salons/frisieur/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
@@ -755,6 +740,17 @@
             <marker date="1504924093977" expanded="true" signature="17948:17966" ph="..." />
             <marker date="1504924093977" expanded="true" signature="19895:19908" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
