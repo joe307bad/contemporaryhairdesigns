@@ -540,7 +540,9 @@ function martanian_get_map_position($address)
     $address_hash = md5($address);
 
     $url_encode_address = str_replace(' ', '+', $address);
-    $url = 'http://maps.google.com/maps/api/geocode/xml?address=' . $url_encode_address . '&sensor=false';
+    //$url = 'http://maps.google.com/maps/api/geocode/xml?address=' . $url_encode_address . '&sensor=false';
+
+    $url = 'https://maps.google.com/maps/api/geocode/xml?address='. $url_encode_address .'&sensor=false&key=AIzaSyCyUN8widxGHFXF81KRNWqIRPZshDWblXU';
 
     $response = wp_remote_get($url);
     if (is_wp_error($response)) return;

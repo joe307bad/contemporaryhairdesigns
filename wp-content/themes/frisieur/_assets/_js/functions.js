@@ -130,12 +130,9 @@ jQuery( document ).ready( function() {
     */
 
     jQuery( '.responsive-menu, .scrollable-menu-responsive' ).click( function() {
-    
-        jQuery( '#responsive-menu-wrapper' ).css({ 'display' : 'block' });
-        jQuery( '#responsive-menu-window' ).fadeIn( 300 ); 
-        
-        jQuery( 'html, body' ).animate( { scrollTop : 0 }, 500 );
-                                
+
+        jQuery( '.menu-right,.menu-left' ).toggle();
+
     });
     
     

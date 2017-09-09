@@ -65,7 +65,7 @@
    
     ?>
     
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCyUN8widxGHFXF81KRNWqIRPZshDWblXU"></script>
     
     <?php wp_footer(); ?>
     
